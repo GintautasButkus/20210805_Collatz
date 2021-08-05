@@ -8,7 +8,7 @@ print('This is a Collatz number sequence')
 try:
     user = int(input(print('Please enter the number: ')))
 except ValueError:
-    print('You must enter an integer')
+    print('You must enter an integer ')
 
 try:
     def collatz(number):
